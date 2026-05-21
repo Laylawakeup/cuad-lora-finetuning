@@ -65,10 +65,12 @@ Relevant excerpt: "..."
 | Macro F1 | 0.55 | 0.45 | **0.75** |
 
 
-**Key finding:** Class imbalance was the primary failure mode.
+**Key finding:**
+Class imbalance was the primary failure mode.
 Experiment 1 achieved higher accuracy than baseline by collapsing to
 majority-class prediction (Yes recall = 0.07), making Macro F1 worse
-than zero-shot. Oversampling in Experiment 2 recovered Yes F1 from
+than zero-shot. 
+Oversampling in Experiment 2 recovered Yes F1 from
 0.12 to 0.69, with Macro F1 improving from 0.55 (baseline) to 0.75.
 All runs tracked in W&B:
 `https://wandb.ai/laylawakeup-testing/cuad-lora-finetuning`
