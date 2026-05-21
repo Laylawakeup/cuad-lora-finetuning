@@ -63,6 +63,8 @@ Relevant excerpt: "..."
 | F1 Yes | 0.39 | 0.12 | **0.69** |
 | F1 No | 0.71 | 0.78 | **0.82** |
 | Macro F1 | 0.55 | 0.45 | **0.75** |
+
+
 **Key finding:** Class imbalance was the primary failure mode.
 Experiment 1 achieved higher accuracy than baseline by collapsing to
 majority-class prediction (Yes recall = 0.07), making Macro F1 worse
@@ -102,7 +104,7 @@ it as an unconditional convenience termination.
 # Install dependencies
 pip install unsloth trl transformers datasets wandb huggingface_hub scikit-learn
 # Run notebook
-# 1. Data processing   — Section 1 of notebook
-# 2. Baseline eval     — Section 2
-# 3. LoRA fine-tuning  — Section 3
-# 4. Eval + analysis   — Section 4
+# 1. Data processing   
+# 2. Baseline eval     
+# 3. LoRA fine-tuning  
+# 4. Eval
